@@ -10,7 +10,7 @@ PCs --> Access switches --> Core Switch --> Router (for intervlan routing)
 Vlan 10 --> Database --> 192.168.10.0 /24
 Vlan 20 --> Admin --> 192.168.20.0 /24
 Vlan 30 --> Accounts --> 192.168.30.0 /24
-Vlan 49 --> IT --> 192.168.40.0 /24
+Vlan 40 --> IT --> 192.168.40.0 /24
 
 ## Technologies used 
 Cisco Packet Tracer
@@ -23,7 +23,7 @@ Extended Access Control List (ACLs)
 ## Security Implementation 
 1. Only IT VLAN is allowed to access the Database/DNS Server
 2. Admin and Accounts are denied used the ACLS
-3. ACLs applie inbound on the Database VLAN sub-interface
+3. ACLs applied inbound on the Database VLAN sub-interface
 4. Server VLAN isolated from the users VLAN
 
 ## IP Address Management
